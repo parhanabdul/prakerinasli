@@ -10,6 +10,10 @@
                 <div class="card-body">
                 <form action="{{route('kasus2.store')}}" method="POST">
                 @csrf
+                    <div class="col">
+                        <livewire:statecity />
+                    </div>
+
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}

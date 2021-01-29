@@ -8,7 +8,7 @@
                 <div class="card-header"><center><b>{{ __('Data Provinsi') }}</b></center></div>
 
                 <div class="card-body">
-                <a href="{{route('provinsi.create')}}"class="btn btn-primary float-right"><b>Tambah Data</b></a>
+                <a href="{{route('provinsi.create')}}"class="btn btn-primary float-right"><b>Tambah Data+</b></a>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
